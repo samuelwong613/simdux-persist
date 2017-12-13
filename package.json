@@ -1,0 +1,32 @@
+{
+  "name": "simdux-persist",
+  "version": "0.0.0",
+  "description": "Store the simdux state in a local storage",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"no test specified, TODO later\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/samuelwong613/simdux-persist"
+  },
+  "keywords": [
+    "react",
+    "react-native",
+    "simdux",
+    "redux",
+    "persist",
+    "redux-persist"
+  ],
+  "author": "samuelwong <samuelwong613@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^15.6.1"
+  },
+  "devDependencies": {
+    "babel-jest": "21.0.2",
+    "babel-preset-react-native": "4.0.0",
+    "jest": "21.1.0",
+    "react-test-renderer": "16.0.0-alpha.12"
+  }
+}
