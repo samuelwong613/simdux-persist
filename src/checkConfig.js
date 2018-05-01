@@ -12,7 +12,7 @@ module.exports = (config) => {
 	})
 	
 	if (typeof config.storage !== 'object')	throw Error('simdux-persist: persistStore: config.storage must be set');
-	if (typeof config.storage.getItem !== 'function' || typeof config.storage.setItem !== 'function')
+	if (typeof config.storage.getItem !== 'function' || typeof config.storage.setItem !== 'function' || typeof config.storage.removeItem !== 'function')
 		throw Error('simdux-persist: persistStore: config.storage is not a valid storage');
 
 	config.blacklist = config.blacklist || [];
